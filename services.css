@@ -1,0 +1,72 @@
+@media (max-width: 768px){
+
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato","Avenir Next",Arial,sans-serif;
+  margin: 0;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+    
+}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.overlay a {
+    color: white;
+    font-weight: 1000;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    background: black;
+
+    
+}
+header {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	color: orange;
+	-webkit-transition: .4s;
+	transition: .4s;
+	padding: 0.5em;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a {
+    color: inherit;
+    padding: 0 12px;
+    text-decoration: none;
+}
