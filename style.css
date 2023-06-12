@@ -142,7 +142,7 @@ span
 {
     text-align: center;
     padding-bottom: 25px;
-    color: #4b4c4d;
+    color: #FF8D2F;
 }
 .footer .social a
 {
@@ -155,11 +155,6 @@ span
     text-align: center;
     margin: 0 8px;
     opacity: 0.75;
-}
-.footer .social a:hover
-{
-    color: #FF8D2F;
-
 }
 .footer ul
 {
@@ -191,7 +186,7 @@ span
     margin-top: 15px;
     text-align: center;
     font-size: 12px;
-    color: #aaa;
+    color: #000;
 }
 @media (min-aspect-ratio: 16/9)
 {
